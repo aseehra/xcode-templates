@@ -18,14 +18,28 @@
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Default</key>
-			<string>NSObject</string>
+			<key>Name</key>
+			<string>Category on</string>
 			<key>Description</key>
 			<string>What class to add a category to</string>
 			<key>Identifier</key>
 			<string>categoryClass</string>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
 			<key>Name</key>
-			<string>Category on</string>
+			<string>Category name</string>
+			<key>Description</key>
+			<string>What name to give the category</string>
+			<key>Identifier</key>
+			<string>categoryName</string>
+			<key>Default</key>
+			<string>TFMAdditions</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -35,6 +49,7 @@
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
 	<string>An Objective-C category</string>
