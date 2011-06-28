@@ -11,6 +11,6 @@
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_viewControllerSubclass___ 
 {
  @private
-} // ___FILEBASENAMEASIDENTIFIER___
+}
 
-@end
+@end // ___FILEBASENAMEASIDENTIFIER___
