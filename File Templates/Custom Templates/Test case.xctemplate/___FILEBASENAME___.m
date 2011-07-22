@@ -6,23 +6,12 @@
 // Copyright (c) ___YEAR___ ___FULLUSERNAME___.
 //
 
-#import "___FILEBASENAME___.h"
+#import "GTMSenTestCase.h"
+#import <OCMock/OCMock.h>
 
+@interface ___FILEBASENAMEASIDENTIFIER___  : GTMTestCase
+@end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
-
-- (void)setUp
-{
-  [super setUp];
-
-  // Set-up code here.
-}
-
-- (void)tearDown
-{
-  // Tear-down code here.
-
-  [super tearDown];
-}
 
 @end

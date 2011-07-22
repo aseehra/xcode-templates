@@ -10,7 +10,7 @@
 	<key>DefaultCompletionName</key>
 	<string>Test</string>
 	<key>Description</key>
-	<string>An Objective-C class containing an OCUnit test case, with a header that includes the &lt;SenTestingKit/SenTestingKit.h&gt; header.</string>
+	<string>An Objective-C class containing an GTMUnit test case, with a header that includes the "GTMSenTestCase.h" and &lt;OCMock.h&gt; headers.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -18,6 +18,7 @@
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
 	<string>An Objective-C class containing an OCUnit test case with a header</string>
